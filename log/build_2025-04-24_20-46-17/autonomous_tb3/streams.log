@@ -1,0 +1,87 @@
+[1.176s] Invoking command in '/home/li/Work/Nav2_simple/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/li/Work/Nav2_simple/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/li/Work/Nav2_simple/build/autonomous_tb3/build install --record /home/li/Work/Nav2_simple/build/autonomous_tb3/install.log --single-version-externally-managed install_data
+[1.336s] running egg_info
+[1.345s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[1.345s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[1.345s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[1.345s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[1.345s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[1.366s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[1.366s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[1.367s] running build
+[1.367s] running build_py
+[1.367s] creating /home/li/Work/Nav2_simple/build/autonomous_tb3/build
+[1.367s] creating /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib
+[1.367s] creating /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/hotel_waiter_single_goal.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/hotel_waiter_multi_button.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/maze_solver.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/occupancy_grid_pub.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/__init__.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.367s] copying autonomous_tb3/spawn_entity.py -> /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.368s] running install
+[1.371s] running install_lib
+[1.381s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_single_goal.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_multi_button.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/maze_solver.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] copying /home/li/Work/Nav2_simple/build/autonomous_tb3/build/lib/autonomous_tb3/spawn_entity.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.381s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_single_goal.py to hotel_waiter_single_goal.cpython-310.pyc
+[1.382s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_multi_button.py to hotel_waiter_multi_button.cpython-310.pyc
+[1.382s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/maze_solver.py to maze_solver.cpython-310.pyc
+[1.383s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-310.pyc
+[1.383s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/__init__.py to __init__.cpython-310.pyc
+[1.383s] byte-compiling /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/spawn_entity.py to spawn_entity.cpython-310.pyc
+[1.383s] running install_data
+[1.383s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/ament_index
+[1.383s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/ament_index/resource_index
+[1.383s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/ament_index/resource_index/packages
+[1.383s] copying resource/autonomous_tb3 -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/ament_index/resource_index/packages
+[1.384s] copying package.xml -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3
+[1.384s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.384s] copying launch/tb3_world_navigation.launch.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.384s] copying launch/mapping.launch.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.384s] copying launch/hotel_waiter.launch.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.384s] copying launch/maze_navigation.launch.py -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.384s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.384s] copying config/mapping.rviz -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.384s] copying config/hotel_map.pgm -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/tb3_world.yaml -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/tb3_world.pgm -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/hotel_map.yaml -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/tb3_nav_params.yaml -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/tb3_cartographer.lua -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/maze.yaml -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.385s] copying config/maze.pgm -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.386s] copying config/tb3_nav.rviz -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/config
+[1.386s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/world
+[1.386s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.386s] copying world/maze/model.config -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.386s] copying world/maze/model.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.386s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models
+[1.386s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.386s] copying models/actor/model.config -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.386s] copying models/actor/model.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.387s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.387s] copying models/table/model.config -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.387s] copying models/table/model-1_4.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.387s] copying models/table/model.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.388s] copying models/table/model-1_3.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.388s] copying models/table/model-1_2.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.388s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.388s] copying models/beer/model-1_4.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.388s] copying models/beer/model.sdf -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.389s] copying models/beer/model.config -> /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.389s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer/scripts
+[1.389s] creating /home/li/Work/Nav2_simple/install/autonomous_tb3/share/autonomous_tb3/models/beer/texutres
+[1.389s] running install_egg_info
+[1.401s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[1.401s] running install_scripts
+[1.504s] Installing autonomous_waiter script to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/autonomous_tb3
+[1.504s] Installing autonomous_waiter_lite script to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/autonomous_tb3
+[1.504s] Installing maze_solver script to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/autonomous_tb3
+[1.504s] Installing occupancy_grid_pub script to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/autonomous_tb3
+[1.504s] Installing sdf_spawner script to /home/li/Work/Nav2_simple/install/autonomous_tb3/lib/autonomous_tb3
+[1.504s] writing list of installed files to '/home/li/Work/Nav2_simple/build/autonomous_tb3/install.log'
+[1.526s] Invoked command in '/home/li/Work/Nav2_simple/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/li/Work/Nav2_simple/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Work/Nav2_simple/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/li/Work/Nav2_simple/build/autonomous_tb3/build install --record /home/li/Work/Nav2_simple/build/autonomous_tb3/install.log --single-version-externally-managed install_data

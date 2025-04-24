@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopatrol_interfaces__py",
+		"source" : "/home/li/Work/Nav2_simple/build/autopatrol_interfaces/autopatrol_interfaces__py"
+	}
+}

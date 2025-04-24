@@ -1,0 +1,4 @@
+[0.524s] Invoking command in '/home/li/Work/Nav2_simple/build/fishbot_application_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/li/Work/Nav2_simple/install/fishbot_application:/home/li/Work/Nav2_simple/install/autopatrol_robot:/home/li/Work/Nav2_simple/install/autonomous_tb3 CONDA_PROMPT_MODIFIER=(ros_humble) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/fishbot_application_cpp -- -j16 -l16
+[0.564s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2pose.dir/src/nav2pose.cpp.o[0m
+[3.213s] [100%] [32m[1mLinking CXX executable nav2pose[0m
+[3.342s] [100%] Built target nav2pose

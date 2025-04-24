@@ -1,0 +1,42 @@
+[0.450s] Invoking command in '/home/li/Work/Nav2_simple/build/fishbot_navigation2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/fishbot_navigation2 -- -j16 -l16
+[0.470s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.617s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.728s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.731s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.731s] -- Added test 'lint_cmake' to check CMake code style
+[0.732s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.733s] -- Added test 'xmllint' to check XML markup files
+[0.734s] -- Configuring done
+[0.738s] -- Generating done
+[0.739s] -- Build files have been written to: /home/li/Work/Nav2_simple/build/fishbot_navigation2
+[0.756s] Invoked command in '/home/li/Work/Nav2_simple/build/fishbot_navigation2' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/fishbot_navigation2 -- -j16 -l16
+[0.758s] Invoking command in '/home/li/Work/Nav2_simple/build/fishbot_navigation2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/fishbot_navigation2
+[0.766s] -- Install configuration: ""
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/config
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_config _warn_localcostmap.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_config_error_full.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_config.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/maps/room1_map.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/maps/room1_map.pgm
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[0.767s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[0.768s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[0.768s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[0.768s] -- Installing: /home/li/Work/Nav2_simple/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[0.769s] Invoked command in '/home/li/Work/Nav2_simple/build/fishbot_navigation2' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/fishbot_navigation2

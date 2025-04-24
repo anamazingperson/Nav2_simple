@@ -1,0 +1,6 @@
+{
+  "package_name": "autopatrol_interfaces",
+  "non_idl_tuples": [
+    "/home/li/Work/Nav2_simple/src/ros2_patrol_robot/autopatrol_interfaces:srv/SpeachText.srv"
+  ]
+}

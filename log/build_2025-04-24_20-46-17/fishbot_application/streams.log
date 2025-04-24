@@ -1,0 +1,47 @@
+[1.160s] Invoking command in '/home/li/Work/Nav2_simple/src/ros2_patrol_robot/fishbot_application': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/li/Work/Nav2_simple/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fishbot_application build --build-base /home/li/Work/Nav2_simple/build/fishbot_application/build install --record /home/li/Work/Nav2_simple/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.334s] running egg_info
+[1.343s] writing ../../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.343s] writing dependency_links to ../../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.343s] writing entry points to ../../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.343s] writing requirements to ../../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.343s] writing top-level names to ../../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.362s] reading manifest file '../../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.363s] running build
+[1.363s] running build_py
+[1.363s] creating /home/li/Work/Nav2_simple/build/fishbot_application/build
+[1.363s] creating /home/li/Work/Nav2_simple/build/fishbot_application/build/lib
+[1.363s] creating /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.363s] copying fishbot_application/waypoint_follower.py -> /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.364s] copying fishbot_application/nav_to_pose.py -> /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.364s] copying fishbot_application/get_robot_pose.py -> /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.364s] copying fishbot_application/init_robot_pose.py -> /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.364s] copying fishbot_application/__init__.py -> /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application
+[1.365s] running install
+[1.371s] running install_lib
+[1.390s] creating /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.390s] copying /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application/waypoint_follower.py -> /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.390s] copying /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application/nav_to_pose.py -> /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.391s] copying /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.391s] copying /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application/init_robot_pose.py -> /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.391s] copying /home/li/Work/Nav2_simple/build/fishbot_application/build/lib/fishbot_application/__init__.py -> /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.392s] byte-compiling /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[1.392s] byte-compiling /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.393s] byte-compiling /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[1.393s] byte-compiling /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.394s] byte-compiling /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/__init__.py to __init__.cpython-310.pyc
+[1.394s] running install_data
+[1.394s] creating /home/li/Work/Nav2_simple/install/fishbot_application/share/ament_index
+[1.395s] creating /home/li/Work/Nav2_simple/install/fishbot_application/share/ament_index/resource_index
+[1.395s] creating /home/li/Work/Nav2_simple/install/fishbot_application/share/ament_index/resource_index/packages
+[1.396s] copying resource/fishbot_application -> /home/li/Work/Nav2_simple/install/fishbot_application/share/ament_index/resource_index/packages
+[1.396s] copying package.xml -> /home/li/Work/Nav2_simple/install/fishbot_application/share/fishbot_application
+[1.396s] running install_egg_info
+[1.407s] Copying ../../../build/fishbot_application/fishbot_application.egg-info to /home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.408s] running install_scripts
+[1.497s] Installing get_robot_pose script to /home/li/Work/Nav2_simple/install/fishbot_application/lib/fishbot_application
+[1.497s] Installing init_robot_pose script to /home/li/Work/Nav2_simple/install/fishbot_application/lib/fishbot_application
+[1.497s] Installing nav_to_pose script to /home/li/Work/Nav2_simple/install/fishbot_application/lib/fishbot_application
+[1.497s] Installing waypoint_follower script to /home/li/Work/Nav2_simple/install/fishbot_application/lib/fishbot_application
+[1.498s] writing list of installed files to '/home/li/Work/Nav2_simple/build/fishbot_application/install.log'
+[1.519s] Invoked command in '/home/li/Work/Nav2_simple/src/ros2_patrol_robot/fishbot_application' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/li/Work/Nav2_simple/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/Work/Nav2_simple/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fishbot_application build --build-base /home/li/Work/Nav2_simple/build/fishbot_application/build install --record /home/li/Work/Nav2_simple/build/fishbot_application/install.log --single-version-externally-managed install_data
