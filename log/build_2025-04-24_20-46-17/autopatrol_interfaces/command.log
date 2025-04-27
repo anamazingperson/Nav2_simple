@@ -1,4 +1,0 @@
-Invoking command in '/home/li/Work/Nav2_simple/build/autopatrol_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/autopatrol_interfaces -- -j16 -l16
-Invoked command in '/home/li/Work/Nav2_simple/build/autopatrol_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/autopatrol_interfaces -- -j16 -l16
-Invoking command in '/home/li/Work/Nav2_simple/build/autopatrol_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/autopatrol_interfaces
-Invoked command in '/home/li/Work/Nav2_simple/build/autopatrol_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/autopatrol_interfaces

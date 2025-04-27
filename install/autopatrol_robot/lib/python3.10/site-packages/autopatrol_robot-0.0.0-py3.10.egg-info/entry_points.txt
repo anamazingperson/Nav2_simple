@@ -1,4 +1,0 @@
-[console_scripts]
-param_test = autopatrol_robot.param_test:main
-patrol_node = autopatrol_robot.patrol_node:main
-speaker = autopatrol_robot.speaker:main

@@ -1,4 +1,0 @@
-Invoking command in '/home/li/Work/Nav2_simple/build/fishbot_application_cpp': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/fishbot_application_cpp -- -j16 -l16
-Invoked command in '/home/li/Work/Nav2_simple/build/fishbot_application_cpp' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/Nav2_simple/build/fishbot_application_cpp -- -j16 -l16
-Invoking command in '/home/li/Work/Nav2_simple/build/fishbot_application_cpp': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/fishbot_application_cpp
-Invoked command in '/home/li/Work/Nav2_simple/build/fishbot_application_cpp' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/Nav2_simple/build/fishbot_application_cpp
