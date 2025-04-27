@@ -7,6 +7,98 @@
 3. 里面对应的功能，里面的话题，服务，动作分别是什么作用。
 
 # 项目实战
+参考开源项目： [nav2](https://github.com/fishros/fishbot)
+编译的时候记得删除navigation，避免编译时间过长。
+[文档参考](https://fishros.com/d2lros2/#/humble/chapt10/)
+
+## 步骤
+
+```bash
+git clone <address>
+cd fishbot
+colcon build
+```
+### 在RVIZ中显示机器人模型
+#### 编写代码思路
+1.创建以来python得到，作为机器人表述包，有world,urdf,launch文件，在setup中加入下述，方便编译install生成文件，方便launch文件查找。
+```python
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/**')),
+        (os.path.join('share', package_name, 'world'), glob('world/**')),
+```
+2.urdf 下放机器人的urdf,和gezebo的urdf文件,添加gazebo标签的可以添加物理属性，和外观，便于gezabo仿真，没有也能打开
+
+```bash
+source install/setup.bash
+ros2 launch fishbot_description display_rviz2.launch.py
+```
+
+3.world文件获取，直接打开gazebo里面绘图，然后导出为world文件，[资料](https://fishros.com/d2lros2/#/humble/chapt9/get_started/7.Gazebo%E4%BB%BF%E7%9C%9F%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
+4.然后根据需要实现的功能编写launch文件
+
+#### 仿真
+```bash
+source install/setup.bash
+ros2 launch fishbot_description gazebo.launch.py
+```
+
+### 建图
+#### 编写思路
+1.创建基于ament_cmake的包（默认是ament_camke），目标是得到map文件夹里的文件。创建launch,rviz,config，然后对应的makelist添加。
+```makefile
+install(
+  DIRECTORY config launch rviz
+  DESTINATION share/${PROJECT_NAME}
+)
+```
+2.采用的工具是cartograper工具，首先配置config，配置文件是固定的，主要目的是确定从哪些话题里面构建地图（包含各种传感器的话题）
+3.然后编写启动文件，来启动建图工具和rviz
+4.建图的原理是：gazebo仿真环境，因为我们的建图程序依赖于Gazebo提供雷达和里程计等数据
+所以需要先启动gazebo
+5.然后启动建图工具的launch文件。
+6.保存地图
+```bash
+# 先将地图保存到src/fishbot_cartographer/map目录下
+cd src/fishbot_cartographer/ && mkdir map && cd map
+ros2 run nav2_map_server map_saver_cli -t map -f fishbot_map
+```
+#### 启动
+```bash
+source install/setup.bash
+ros2 launch fishbot_cartographer cartographer.launch.py
+```
+
+
+### Nav2
+#### 编写思路
+1.创建基于cmake_ament的导航包，不需要编写源码，主要是提供导航配置文件和地图。创建的文件夹都需要在cmakelist.txt添加
+```cmake
+install(
+  DIRECTORY launch  config param maps
+  DESTINATION share/${PROJECT_NAME}
+)
+```
+2.加载地图，将上述地图复制到maps文件夹下
+3..在param文件夹添加yaml配置文件，可以网上下载，修改成自己机器人对应的尺寸和算法，[配置指南](https://fishros.com/d2lros2/#/humble/chapt11/get_started/2.%E4%B8%BAFishBot%E9%85%8D%E7%BD%AENav2?id=_12-%e6%b7%bb%e5%8a%a0maps%e6%96%87%e4%bb%b6%e5%a4%b9)
+4.添加导航依赖，package.xml需要
+```xml
+  <exec_depend>nav2_bringup</exec_depend>
+  ```
+5.编写Launch文件。指定地图和导航参数配置yaml文件，然后启动rviz来显示传感器建图。
+6.后续可以不需要图形化操作，采用api来实现起点和终点的位姿设置。
+#### 启动
+```bash
+source install/setup.bash
+ros2 launch fishbot_navigation2 navigation2.launch.py use_sim_time:=True
+```
+## 问题汇总
+1. gazebo不显示机器人
+```bash
+#缺少 lxml包，
+pip install lxml
+```
+2. share 文件下找不到文件,setup.py或cmakelist.txt添加文件路径
+3. 
 # 理论基础
 ## 机器人介绍
 优势：开源的、应用广，资料多。
@@ -30,9 +122,24 @@ TurtleBot3 是一款非常受欢迎的移动机器人平台，广泛应用于教
 # Nav2 tutorial
 1. 基本的导航案例，给定初始位置，以及目标位置，机器人可以过去
 ```bash
+export TURTLEBOT3_MODEL=waffle  # Iron and older only with Gazebo Classic
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models # Iron and older only with Gazebo Classic
 ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
 ```
-2. 学习navigation2导航包源码怎么入手，先看什么文件比较好，主要是想快速学习怎么使用这个导航包完成自己的任务。是先看param里面得yaml文件，了解怎么配置吗
+2. 学习navigation2导航包源码怎么入手，先看什么文件比较好，主要是想快速学习怎么使用这个导航包完成自己的任务。是先看param里面得yaml文件，了解怎么配置吗输入数据（话题）: 服务或动作: 输出数据（话题）
+## 导航中的关键概念
+```plantuml
+@startmindmap
+* 导航
+** 定位
+*** GPS（室外导航）
+*** IMU(通过测量加速度积分得到位移，需要得到初始点)
+*** SLAM(通过建图，然后采用传感器比较确定在地图的位置)
+*** 里程计（类似IMU）
+*** 混合方法，提高鲁棒性
+@endmindmap
+```
+
 
 ### Nav2 bringup工具包
 #### 文件结构
